@@ -1,0 +1,102 @@
+/*основной цвет текста #757575; */
+/*вторичный цвет текста #212121; */
+/*белый #FFFFFF; */
+/*акцент #2196F3; */
+body {
+  background-color: #e5e5e5;
+  color: #757575;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Логотип */
+.logo {
+  color: #000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logo > span {
+  color: #2196f3;
+}
+
+/*site nav*/
+.link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.auth-nav .link {
+  color: #757575;
+  font-style: normal;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: #2196f3;
+}
+
+/* Фильтры */
+.filters .link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filters .link:hover,
+.filters .link:focus {
+  color: #ffffff;
+}
+
+/* Портфолио */
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+
+/* footer */
+.footer-link {
+  color: #fff;
+}
+
+.list .address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
