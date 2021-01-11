@@ -139,16 +139,17 @@ a {
 }
 
 /* Фильтры */
-.filters .link {
+.filters button {
   font-weight: 500;
   line-height: 1.63em;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
-.filters .link:hover,
-.filters .link:focus {
+.filters button:hover,
+.filters button:focus {
   color: var(--link-color);
+  background-color: var(--accent-color);
 }
 
 /* Портфолио */
